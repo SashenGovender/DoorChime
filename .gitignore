@@ -1,0 +1,33 @@
+# Ignore all files
+*
+
+# Ignore all files in subdirectories
+#**/**
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all files in subdirectories
+/*
+!/*.asm
+!/*.c
+!/*.sh
+!/*.md
+!/*.txt
+!/*/
+/*/**
+
+!/**/*.asm
+!/**/*.c
+!/**/*.sh
+!/**/*.md
+!/**/*.txt
+
+# Except source code files
+!.gitignore
+!*.readme
+!*.c
+!*.asm
+!*.sh
+!*.md
+!*.txt
